@@ -1,0 +1,27 @@
+
+# Create requirements.txt
+requirements = '''# Marketing Funnel Analysis Project Requirements
+# Python 3.8+
+
+# Core Data Analysis
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.11.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Optional (for Jupyter notebooks)
+jupyter>=1.0.0
+notebook>=6.5.0
+ipywidgets>=8.0.0
+'''
+
+with open('requirements.txt', 'w') as f:
+    f.write(requirements)
+
+print("✓ Created: requirements.txt")
